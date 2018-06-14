@@ -1,0 +1,29 @@
+{
+  "name": "Electron-tus-uploader",
+  "version": "0.1.0",
+  "description": "An upload tool use electron and tus.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:win64": ".\\scripts\\build-win32.bat win32 x64"
+  },
+  "author": "YING MU",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^2.0.2",
+    "electron-packager": "^12.1.0"
+  },
+  "keywords": [
+    "Electron",
+    "Tus",
+    "Upload"
+  ],
+  "repository": {
+    "type":"git",
+    "url":"https://github.com/bryant24/Electron-tus-uploader.git"
+  },
+  "homepage": "https://github.com/bryant24/Electron-tus-uploader",
+  "bugs":{
+    "url":"https://github.com/bryant24/Electron-tus-uploader/issues"
+  }
+}
